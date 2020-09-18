@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+    <title>Contact</title>
+
+    <style>
+     body {
+         font-size: 93%;
+         font-family: Alata;
+       /*  font-family: "Courier New", Courier, monospace;*/
+         letter-spacing: 0.15em;
+         background-color: #efefef;
+     }
+
+     #page {
+         max-width: 940px;
+         min-width: 200px;
+         width: 900px;
+         height: 870px;
+         padding: 20px;
+         border: 4px double #000;
+         background-color: #ffffff;
+         margin: 5px auto 5px auto;
+     }
+
+     #logo{
+        margin: 0px 410px 0px auto;
+         width: 150px;
+     }
+
+     ul {
+         width: 630px;
+         padding: 15px;
+         border-top: 2px solid black;
+         border-bottom: 1px solid black;
+         margin: 0px auto 0px auto;
+         text-align: center;
+     }
+
+     li {
+         display: inline;
+     
+     }
+
+     a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rosybrown;
+        font-size: 16px;
+        padding: 6px 10px 5px 10px;
+     }
+
+    #forsale {
+        font-size: 23px;
+        font-family: Arvo;
+        margin-left: 150px;
+    }
+     a:hover, a.on {
+         color: red;
+     }
+
+     p{
+         text-align: center;
+         width: 600px;
+         font-weight: normal;
+         margin: 10px auto 10px auto;
+     }
+
+     label{
+         font-size: 18px;
+         font-family: Alata ;
+     }
+
+     #form1 {
+         width: 500px;
+         border: 10 solid black;
+         margin: 35px 160px 10px auto;
+     }
+
+     #fielset-contact {
+         border: 0px;
+     }
+
+     input[type="text"], input[type="email"]{
+         width: 350px;
+         height: 40px;
+         font-size: 15px;
+         font-weight: bolder;
+     }
+
+      #button1{
+          width: 355px;
+          height: 40px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 15px;
+          font-weight: bolder;
+          background-color: #2061e3; /*Blue*/
+          border: none;  
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+
+
+      }
+
+      #paragraph-copyright{
+         font-family: Alata;
+         font-size: 16px;
+     }
+        
+    </style>
+</head>
+<body>
+    
+
+    <div id="page">
+        <div id="logo">
+            <a href="firstpageweb.html"><img src="images/logo2.png" alt="The Analog Specialists" /></a> 
+        </div>
+        <ul id="navigation">
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="forsale.html">For Sale</a> </li>
+            <li> <a href="about.html">About</a> </li>
+            <li> <a href="location.html">Location</a> </li>
+            <li> <a href="#">Contact</a> </li>
+        </ul>
+
+        <h1 id="forsale">Contact Us</h1>
+
+
+          <form action="" id="form1">
+                <fieldset id="fielset-contact">
+                    <label>Name</label> <br>
+                    <input type="text" name="Emri" id="emri" placeholder="Write your name" required> <br> <br> 
+        
+                    <label for="">Surname</label> <br>
+                    <input type="text" name="Surname" id="Surname" placeholder="Write your Surname" required> <br>  <br>
+        
+                    <label for="">Email</label> <br>
+                    <input type="email" name="Email" id="email" required placeholder="Write your email"> <br> <br>
+        
+                    <label for="">Coment</label> <br>
+                    <textarea name="Coment" id="" cols="37" rows="5" required placeholder="Write any comment" style="font-size: 15px;
+                    font-weight: bolder;"></textarea> <br> <br>
+                    
+                    <button id="button1">Submit</button>
+                </fieldset>
+
+               
+          </form><br>
+          <p id="paragraph-copyright">Copyright&copy;  Gentrit Hoxha 2020 </p>
+    </div>
+</body>
+</html>

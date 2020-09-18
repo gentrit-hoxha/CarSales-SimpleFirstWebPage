@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+    <title>Location</title>
+
+    <style>
+     body {
+         font-size: 93%;
+         font-family: Alata;
+        /* font-family: "Courier New", Courier, monospace;*/
+         letter-spacing: 0.15em;
+         background-color: #efefef;
+     }
+
+     #page {
+         max-width: 940px;
+         min-width: 200px;
+         width: 900px;
+         height: 1200px;
+         padding: 20px;
+         border: 4px double #000;
+         background-color: #ffffff;
+         margin: 5px auto 5px auto;
+     }
+
+     #logo{
+        margin: 0px 410px 0px auto;
+         width: 150px;
+     }
+
+     ul {
+         width: 650px;
+         padding: 15px;
+         border-top: 2px solid black;
+         border-bottom: 1px solid black;
+         margin: 0px auto 0px auto;
+         text-align: center;
+     }
+
+     li {
+         display: inline-block;
+     
+     }
+
+     a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rosybrown;
+        font-size: 16px;
+        padding: 6px 10px 5px 10px;
+     }
+
+    #forsale {
+        font-size: 23px;
+        font-family: Arvo;
+        margin-left: 150px;
+    }
+     a:hover, a.on {
+         color: red;
+     }
+
+     p{
+         text-align: center;
+         width: 600px;
+         font-weight: normal;
+         margin: 10px auto 10px auto;
+     }
+
+
+     #price, #price-container {
+         width: 300px;   /*Paragraph for prices*/
+         font-family: Alata;
+         font-size: 18px;
+         font-weight: bolder;
+     }
+    
+     #paragraph-copyright{
+         font-family: Alata;
+         font-size: 16px;
+     }
+
+     .mapouter{
+        position:relative;
+        text-align:right;
+        height:500px;
+        width:850px;
+        margin: 0px auto 0px auto;
+     }
+        
+     .gmap_canvas {
+         overflow:hidden;
+         background:none!important;
+         height:500px;
+         width:850px;
+         
+         }
+
+    </style>
+</head>
+<body>
+    
+
+    <div id="page">
+        <div id="logo">
+            <a href="index.html"><img src="images/logo2.png" alt="The Analog Specialists" /></a> 
+        </div>
+        <ul id="navigation">
+            <li> <a href="firstpageweb.html">Home</a> </li>
+            <li> <a href="forsale.html">For Sale</a> </li>
+            <li> <a href="about.html">About</a> </li>
+            <li> <a href="#">Location</a> </li>
+            <li> <a href="contact.html">Contact</a> </li>
+        </ul>
+
+        <h1 id="forsale">You can find us here:</h1>
+        
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="850" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=St.%20Georgener%20Strasse%201%20DE-79111%20Freiburg&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+            </div>
+        </div>
+
+        <p id="paragraph-copyright">Copyright&copy;  Gentrit Hoxha 2020 </p>
+    </div>
+</body>
+</html>
